@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+nav .item{
+    position: relative;
+    left: 240px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 30px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+nav .item:hover{
+    color: black;
+    font-weight: 700;
+}
+
+nav button{
+    position: relative;
+    right: 30px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#1abce0 1%, #3a7bd5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image:linear-gradient(#1abce0 1%, #3a7bd5 100%) 1;
+}
+
+.part-1{
+    display: flex;
+    height: 80vh;
+}
+
+.part-1-left{
+    position: relative;
+    top: 160px;
+    left: 60px;
+}
+
+.part-1-left h1{
+    font-size: 80px;
+    width: 800px;
+}
+
+.part-1-left p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    width: 650px;
+    color: #9c9c9c;
+}
+
+.part-1-left button{
+    position: relative;
+    top: 60px;
+    padding: 17px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    background: linear-gradient(to bottom, #1abce0 10%, #3a7bd5 100%);
+    font-size: 20px;
+}
+
+.part-1 img{
+    position: relative;
+    left: 600px;
+    top: 400px;
+    transform: scale(1.7);
+}
+
+.part-2{
+    position: relative;
+    display: flex;
+    top: 250px;
+    right: 60px;
+}
+
+.part-2-left{
+    position: relative;
+    right: 550px;
+    top: 80px;
+    transform: scale(1.9);
+}
+
+.part-2-right{
+    position: relative;
+    top: 70px;
+
+}
+
+.part-2-right h1{
+    font-size: 80px;
+    width: 800px;
+}
+
+.part-2-right p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    width: 650px;
+    color: #9c9c9c;
+}
+
+.part-2-right button{
+    position: relative;
+    top: 60px;
+    padding: 17px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    background: linear-gradient(to bottom, #1abce0 10%, #3a7bd5 100%);
+    font-size: 20px;
+}
+
+.part-3{
+    position: relative;
+    top: 250px;
+    display: flex;
+}
+
+.part-3-left{
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+.part-3-left h1{
+    font-size: 80px;
+    width: 800px;
+}
+
+.part-3-left p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    width: 650px;
+    color: #9c9c9c;
+}
+
+.part-3-left button{
+    position: relative;
+    top: 60px;
+    padding: 17px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    background: linear-gradient(to bottom, #1abce0 10%, #3a7bd5 100%);
+    font-size: 20px;
+}
+
+.part-3-right{
+    position: relative;
+    transform: scale(.8);
+    bottom: 250px;
+    left: 60px;
+}
+
+.part-4{
+    position: relative;
+    top: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.part-4 h1{
+    position: relative;
+    left: 150px;
+    font-size: 70px;
+    width: 650px;
+}
+
+.part-4 p{
+    position: relative;
+    right: 300px;
+    top: 35px;
+    font-size: 23px;
+    width: 600px;
+    color: #9c9c9c;
+}
+
+.part-5{
+    position: relative;
+    top: 100px;
+    left: 250px;
+    width: 80%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.unlimited{
+    position: relative;
+    top: 10px;
+    border: 2px solid;
+    border: none;
+    background-color: #ececec;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: 7px 7px 8px rgb(163, 163, 163);
+}
+
+.cloud{
+    position: relative;
+    top: 40px;
+}
+
+.wordpress{
+    position: relative;
+    left: 500px;
+    bottom: 1223px;
+}
+
+.wordpress svg{
+    position: relative;
+    right: 700px;
+    top: 155px;
+}
+
+.Fastest{
+    position: relative;
+    bottom: 2073px;
+    left: 500px;
+}
+
+.Fastest svg{
+    position: relative;
+    right: 530px;
+    top: 50px;
+    transform: scale(0.95);
+}
+
+.Domain{
+    position: relative;
+    bottom: 3335px;
+    left: 1000px;
+}
+
+.Domain svg{
+    position: relative;
+    right: 640px;
+    top: 73px;
+    transform: scale(0.9);
+}
+
+.Website{
+    position: relative;
+    bottom: 4185px;
+    left: 1000px;
+}
+
+.Website svg{
+    position: relative;
+    right: 750px;
+    top: 73px;
+    transform: scale(0.9);
+}
+
+.icon{
+    width: 400px;
+}
+
+.icon p{
+    position: relative;
+    top: 10px;
+    color: #9c9c9c;
+}
+
+.part-6{
+    position: relative;
+    top: 350px;
+    height: 100vh;
+    background: linear-gradient(#1abce0 1%, #3a7bd5 100%);
+}
+
+.part-6>h1{
+    position: relative;
+    left: 700px;
+    top: 40px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.box{
+    position: relative;
+    top: 110px;
+    left: 300px;
+    display: flex;
+    align-items: baseline;
+    width: 70%;
+    justify-content: space-around;
+    line-height: 45px;
+}
+
+.box-1,.box-2,.box-3{
+    padding: 60px 60px;
+    height: 550px;
+    background-color: #ffffff;
+}
+
+.box-item{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+i{
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+}
+
+.price{
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.price span{
+    color: #9c9c9c;
+}
+
+.price p{
+    color: #9c9c9c;
+}
+
+.price button{
+    font-size: 15px;
+    padding: 10px 45px;
+    background: -webkit-linear-gradient(#1abce0 1%, #3a7bd5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image:linear-gradient(#1abce0 1%, #3a7bd5 100%) 1;
+}
+
+.part-7{
+    position: relative;
+    top: 500px;
+    left: 700px;
+}
+
+.part-7 h1{
+    font-size: 47px ;
+}
+
+.part-7 p{
+    position: relative;
+    top: 30px;
+    right: 310px;
+    width: 1100px;
+    text-align: center;
+    color: #9c9c9c;
+}
+
+.part-8{
+    position: relative;
+    display: flex;
+    left: 200px;
+    justify-content: space-around;
+    width: 80%;
+    height: 400px;
+    flex-wrap: wrap;
+    top: 650px;
+}
+
+.rectangle{
+    width: 35%;
+}
+
+.rectangle h1{
+    position: relative;
+    top: 12px;
+    left: 60px;
+    font-size: 23px;
+}
+
+.rectangle p:last-child{
+    position: relative;
+    top: 12px;
+    left: 60px;
+    font-size: 15px;
+}
+
+.rectangle h1::before{
+    position: absolute;
+    left: -60px;
+    content: "";
+    border: 0 solid;
+    background-color: #9c9c9c;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.part-9{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    top: 800px;
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient(#1abce0 1%, #3a7bd5 100%);
+}
+
+.part-9-left{
+    position: relative;
+    left: 100px;
+}
+
+.part-9-left h1{
+    font-size: 50px;
+    width: 35%;
+}
+
+.part-9-left p{
+    position: relative;
+    top: 10px;
+    width: 30%;
+    font-size: 15px;
+    color: #ececec;
+}
+
+.part-9 button{
+    position: relative;
+    right: 100px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 250px;
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+footer{
+        position: relative;
+        display: flex;
+        width: 70%;
+        height: 200px;
+        justify-content: space-between;
+        padding: 50px 60px;
+        top: 1000px;
+}
+
+.left-1{  
+    width: 400px;
+    line-height: 30px;
+    color: #7e7e7e;
+}
+
+.left-1 img{
+    position: relative;
+    right: 130px;
+    height: 45px;
+}
+
+.left-1 p{
+    position: relative;
+    top: 15px;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.end .drop{
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.left-5{
+    position: absolute;
+    top: 50px;
+    left: 1550px;
+}
+
+.links{
+    position: relative;
+    bottom: 830px;
+    right: 260px;
+    width: 500px;
+    height: 30px;
+    display: flex;
+}
+.link-1{
+    position: relative;
+}
+.link-2{
+    position: absolute;
+}
+
+.link-3{
+    position: absolute;
+}
+
+.link-4{
+    position: absolute;
+}
